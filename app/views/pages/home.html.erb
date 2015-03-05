@@ -1,0 +1,13 @@
+<h1> Welcome! </h1>
+
+<% @user.each do |user| %>
+  <p> <%= user.username %> </p>
+<% end %>
+
+<% @cat.each do |c| %>
+  <p> <%= c.name %> </p>
+<% end %>
+
+<% @todo.each do |todo| %>
+  <p> <%= todo.tasks %> </p>
+<% end %>
